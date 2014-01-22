@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <head>
+   <meta charset="utf-8" />
+   <link rel="stylesheet" type="text/css" href="./smscss.css"/>
+  </head>
+  <body>
+   <div id="container">
+    <h1>DEPARTMENT OF CSE</h1>
+    <form action="./smsgatewayhubsem.php" method="post">
+     <ul>
+      <li>
+       <label for="semester">Semester</label>
+       <input type="text" name="sem" id="sem" placeholder="sem" /></li>
+      <li>
+       <label for="smsMessage">Message</label>
+       <textarea name="smsMessage" id="smsMessage" cols="45" rows="15"></textarea>
+      </li>
+     <li><input type="submit" name="sendMessage" id="sendMessage" value="Send Message" /></li>
+    </ul>
+   </form>
+  </div>
+ </body>
+</html>
